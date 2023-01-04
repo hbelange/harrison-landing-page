@@ -9,10 +9,9 @@ body {
 .header-container {
     display: flex;
     justify-content: space-between;
-    background-color: #1f2937;
     flex: 1;
-    color: #f9faf8;
     align-items: center;
+    padding: 0 100px;
 }
 
 .header {
@@ -25,4 +24,40 @@ body {
     list-style: none;
     display: flex;
     font-size: 18px;
+    gap: 50px;
 }
+
+.top {
+    display: flex;
+    flex: 1;
+    padding: 0 100px;
+    gap: 25px;
+}
+
+.header-container, .top {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.image {
+    display: flex;
+    flex: 1;
+}
+
+.top .image {
+    display: flex;
+    align-items: center;
+}
+
+.hero .main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
