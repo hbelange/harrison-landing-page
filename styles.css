@@ -6,14 +6,23 @@ body {
     justify-content: space-between;
 }
 
-.header {
+.header-container {
     display: flex;
     justify-content: space-between;
+    background-color: #1f2937;
+    flex: 1;
+    color: #f9faf8;
+    align-items: center;
 }
 
-.header ul {
+.header {
+    font-size: 24px;
+}
+
+.header-container ul {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
+    font-size: 18px;
 }
